@@ -3,7 +3,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=extra-cmake-modules
-pkgver=5.240.0.20231008
+pkgver=5.110.0
 pkgrel=1
 pkgdesc='Extra modules and scripts for CMake'
 arch=(any)
