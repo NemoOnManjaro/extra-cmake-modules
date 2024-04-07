@@ -26,6 +26,7 @@ validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB  # David Faure <faure@kde
 build() {
   patch -d $pkgname-$pkgver -p1 < prefix.patch
   cmake -B build -S $pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
     -DBUILD_HTML_DOCS=ON \
     -DBUILD_QTHELP_DOCS=ON
   cmake --build build
