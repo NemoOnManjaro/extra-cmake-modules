@@ -17,7 +17,7 @@ optdepends=('python-pyxdg: to generate fastlane metadata for Android apps'
             'python-yaml: to generate fastlane metadata for Android apps')
 groups=(kf6)
 source=(https://download.kde.org/stable/frameworks/${pkgver%.*}/$pkgname-$pkgver.tar.xz{,.sig} prefix.patch)
-sha256sums=('a51fb26baea9f6828884bfe6671d1cda840bd7f8c8bba904b7abb2160c2fedd2'
+sha256sums=('76c9edf00807e6cf8d4ae35f5195b4bc3fe94648d976fef532bf7f97d86388bd'
             'SKIP'
             'cab0dd7234b7660f7c07320ca00df1d0d38940cafcbd202b50fa348ee71e89d6')
 validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB  # David Faure <faure@kde.org>
