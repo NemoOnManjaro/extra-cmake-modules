@@ -1,7 +1,7 @@
 pkgbase = extra-cmake-modules
 	pkgdesc = Extra modules and scripts for CMake
 	pkgver = 6.6.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://community.kde.org/Frameworks
 	arch = any
 	groups = kf6
