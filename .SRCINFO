@@ -1,13 +1,14 @@
 pkgbase = extra-cmake-modules
 	pkgdesc = Extra modules and scripts for CMake
 	pkgver = 6.7.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://community.kde.org/Frameworks
 	arch = any
 	groups = kf6
 	license = LGPL
 	makedepends = python-requests
 	makedepends = python-sphinx
+	makedepends = qt6-tools
 	depends = cmake
 	optdepends = python-pyxdg: to generate fastlane metadata for Android apps
 	optdepends = python-requests: to generate fastlane metadata for Android apps

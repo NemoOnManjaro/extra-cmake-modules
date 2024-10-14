@@ -4,14 +4,15 @@
 
 pkgname=extra-cmake-modules
 pkgver=6.7.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Extra modules and scripts for CMake'
 arch=(any)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
 depends=(cmake)
 makedepends=(python-requests
-             python-sphinx)
+             python-sphinx
+             qt6-tools)
 optdepends=('python-pyxdg: to generate fastlane metadata for Android apps'
             'python-requests: to generate fastlane metadata for Android apps'
             'python-yaml: to generate fastlane metadata for Android apps')
