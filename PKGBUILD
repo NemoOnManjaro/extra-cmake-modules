@@ -17,14 +17,8 @@ optdepends=('python-pyxdg: to generate fastlane metadata for Android apps'
             'python-requests: to generate fastlane metadata for Android apps'
             'python-yaml: to generate fastlane metadata for Android apps')
 groups=(kf6)
-source=(https://download.kde.org/stable/frameworks/${pkgver%.*}/$pkgname-$pkgver.tar.xz{,.sig})
-sha256sums=('e54e87365e193c806966e9698320bde81981219574721ff1970a98163c8ed5a0'
-            'SKIP')
-            
-validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB # David Faure <faure@kde.org>
-              E0A3EB202F8E57528E13E72FD7574483BB57B18D # Jonathan Esk-Riddell <jr@jriddell.org>
-              90A968ACA84537CC27B99EAF2C8DF587A6D4AAC1 # Nicolas Fella <nicolas.fella@kde.org>
-              )
+source=(https://download.kde.org/stable/frameworks/${pkgver%.*}/$pkgname-$pkgver.tar.xz)
+sha256sums=('e54e87365e193c806966e9698320bde81981219574721ff1970a98163c8ed5a0')
 
 build() {
   cmake -B build -S $pkgname-$pkgver \
